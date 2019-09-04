@@ -2,7 +2,7 @@
 layout:     post
 title:      "Hello 2019 Start career"
 subtitle:   " \"Hello World, Hello Blog\""
-date:       2019-0-04 12:00:00
+date:       2019-09-04 12:00:00
 author:     "HongF"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
