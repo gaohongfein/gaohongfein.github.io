@@ -1,11 +1,13 @@
 ---
-title: "卡尔曼滤波"
-subtitle: "kalman filter"
-layout: post
-author: "HongF"
-header-style: text
+layout:     post
+title:      "卡尔曼滤波"
+subtitle:   " kalman filter"
+date:       2019-09-04 12:00:00
+author:     "HongF"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
 tags:
-  - 概率机器人
+    - 机器人
 ---
 
 ## 卡尔曼滤波
