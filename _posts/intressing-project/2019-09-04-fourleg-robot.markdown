@@ -6,6 +6,7 @@ date:       2019-09-04 12:00:00
 author:     "HongF"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
+comments:true
 tags:
     - 四足机器人
     - 机器人
