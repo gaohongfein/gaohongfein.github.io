@@ -1,16 +1,17 @@
 ---
 layout:     post
 title:      "Something intresting"
+subtitle:   " Something intresting"
 date:       2019-09-04 12:00:00
 author:     "HongF"
-header-img: "img/post-bg-miui6.jpg"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
 tags:
     - 四足机器人
-    - 有趣项目
-
+    - 机器人
 ---
 
-> 这篇文章转载自[我在知乎上的回答](http://www.zhihu.com/question/24783844/answer/29286896)
+
 
 
 # 四足机器人
