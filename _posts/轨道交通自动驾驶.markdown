@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "Hello 2019 Start career"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2019-0-04 12:00:00
+author:     "HongF"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 轨道交通
+    - 原创
+---
+# 轨道交通自动驾驶相关
+
+主要是感知部分
+
+1. 轨道分割
+2. 对象检测
+3. 轨道拟合
+4. 限界检测
+5. 传感器标定
+6. 等。。
