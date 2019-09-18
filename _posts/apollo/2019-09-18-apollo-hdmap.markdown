@@ -87,4 +87,4 @@ tags:
 
 3. 最后生成的图所示
 
-   ![mapcasia](img/mapcasia.png)
+   ![mapcasia](img/post-bg-miui6.jpg)
