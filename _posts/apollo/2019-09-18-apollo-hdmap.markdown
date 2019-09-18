@@ -87,4 +87,5 @@ tags:
 
 3. 最后生成的图所示
 
-   ![Screenshot from 2019-09-18 17-44-14](/home/drl/Pictures/Screenshot from 2019-09-18 17-44-14.png)
+   ![Screenshot from 2019-09-18 17-44-14](img/Screenshot from 2019-09-18 17-44-14.png)
+
