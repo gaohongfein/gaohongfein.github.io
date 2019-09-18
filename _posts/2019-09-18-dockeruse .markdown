@@ -50,10 +50,12 @@ tags:
 
    下面的命令则启动一个 bash 终端，允许用户进行交互。
 
-```bash
-$ docker run -t -i ubuntu:18.04 /bin/bash
-root@af8bae53bdd3:/#
-```
+   ```
+   $ docker run -t -i ubuntu:18.04 /bin/bash
+   root@af8bae53bdd3:/#
+   ```
+
+   
 
 其中，`-t` 选项让Docker分配一个伪终端（pseudo-tty）并绑定到容器的标准输入上， `-i` 则让容器的标准输入保持打开。
 
