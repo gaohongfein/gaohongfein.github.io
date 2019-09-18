@@ -1,20 +1,19 @@
 ---
 layout:     post
-title:      "Docker使用方法"
-date:       2019-09-17 12:00:00
+title:      "Apollo地图制作"
+date:       2019-09-17 18:00:00
 author:     "HongF"
 header-img: "img/post-bg-miui6.jpg"
 tags:
-    - Docker
+    - apollo
+	- 地图
 ---
-
-> 这篇文章转载自[这篇博客](https://yeasy.gitbooks.io/docker_practice/install/ubuntu.html)
 
 ## Apollo地图制作
 
 1. 使用工具生成apollo标注形式的base_map.bin
 
-2. 使用这个[页面](https://github.com/ApolloAuto/apollo/tree/master/modules/map/data)的工具分别生成routing map 和sim_map
+2. 使用这个[页面](https://github.com/ApolloAuto/apollo/tree/master/modules/map/data)的工具分别生成routing map 和sim_map， 提示工具貌似需要用sudo运行，否则无法生成。
 
    A bundle of correlated maps are organized as a directory, with a structure like:
 
