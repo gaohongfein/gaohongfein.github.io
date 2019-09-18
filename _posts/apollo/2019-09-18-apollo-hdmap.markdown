@@ -81,7 +81,7 @@ tags:
       --map_dir=/path/to/your/map
       ```
 
-
+使用gmapview.py生成地图下的路线图，与实际的图进行比较。
 
 3. 最后生成的图所示
 
