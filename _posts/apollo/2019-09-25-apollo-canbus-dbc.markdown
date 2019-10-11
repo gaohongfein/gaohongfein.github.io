@@ -167,10 +167,10 @@ https://coderdbc.com/
 
 usbcan品牌广成usbmini-can， 支持windows和linux下的开发， 支持相关软件， 包含Ecan Tools和Cantest(周立功can配套软件)。
 
-![Ecantools](/home/drl/gaohongfein.github.io/img/Ecantools.PNG)
+![Ecantools](/img/Ecantools.PNG)
 
 
 
-![cantest](/home/drl/gaohongfein.github.io/img/cantest.PNG)
+![cantest](/img/cantest.PNG)
 
 其中CANtest支持DBC文件加载解析， 实时显示can报文解析后的数据，支持批量发送数据， 发送文件。 
