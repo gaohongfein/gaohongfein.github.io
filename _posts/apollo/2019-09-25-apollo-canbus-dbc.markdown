@@ -174,3 +174,14 @@ usbcan品牌广成usbmini-can， 支持windows和linux下的开发， 支持相�
 ![cantest](/img/cantest.PNG)
 
 其中CANtest支持DBC文件加载解析， 实时显示can报文解析后的数据，支持批量发送数据， 发送文件。 
+
+
+
+## 5.Can调试相关流程
+
+1. 从底盘厂家获取底盘协议， 底盘协议包含can报文的消息准确定义， 每个报文ID的含义， 从哪个MCU发送到哪个MCU。只有了解报文协议才能够进行后面的解析。
+2. 挑选一款合适的can卡， can卡用于连接IPC和底盘的MCU。 can卡价格不等如何挑选can卡可以参照这篇知乎 如何进行汽车 CAN 总线开发？ - 柏拉凃的回答 - 知乎 https://www.zhihu.com/question/35630289/answer/650086824。我们测试阶段挑选的是国产厂商广成科技的USBCANmini, 他有usb接口可以直接和笔记本电脑相连用于调试。并且有丰富的调试工具
+3. 安装相应的can驱动， 阅读其开发文档。 主要是看如何打开can接口， 如何初始化， 如何接受报文， 如何发送报文， 和最后的关闭设备。
+4. 使用发报文工具进行接发报文测试， 了解车底盘逻辑。 了解如何控制车。详细请研究apollo底盘控制模块。https://github.com/ApolloAuto/apollo/blob/master/docs/technical_tutorial/apollo_vehicle_adaption_tutorial_cn.md 着其中要了解线控底盘的控制原理和控制逻辑
+5. 在接发报文完成后可以利用生成的dbc转c文件的代码实现报文的发送和接收。 底盘主要包含的信号有刹车百分百， 油门百分比， 转向角度和档位。 用生成的c代码和can驱动api来实现报文的接收和发送。
+6. 
